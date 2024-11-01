@@ -256,6 +256,7 @@ text-align: center;
 
 .redes-sociales a {
     text-decoration: none;
+    color: #0e0e0f;
 }
 
 /* Formulario */
@@ -288,6 +289,22 @@ footer ul {
 
 footer li:hover {
     font-size: 17px;
+}
+
+.footer-redes {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-redes-sociales {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+    font-size: 25px;
 }
 
 footer a {
