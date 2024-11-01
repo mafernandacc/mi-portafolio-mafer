@@ -346,10 +346,6 @@ footer ul {
     list-style: none;
 }
 
-footer li:hover {
-    font-size: 17px;
-}
-
 .footer-redes {
     padding: 0px;
     display: flex;
@@ -372,24 +368,122 @@ footer a {
 }
 
 /* Estilos responsivos */
-@media (min-width: 768px) {
+
+/* Tablet */
+@media (min-width: 768px) {    
+
+    p{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    /* Header */
+    header {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 15px;
+        background-color: #2c7e2d92
+        ;
+    }
+    .nav-header {
+        width: 100%;
+    }
+    
+    .nav-header ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-header a{
+        color: white;
+        font-size: 25px;
+        
+    }
+    
+    .nav-header a:hover {
+        text-decoration: underline;
+    }
+
+    /* Saludo */
+
+    #saludo {
+        width: 75%;
+        margin-left: 12%;
+        margin-right: 12%;
+        
+    }
+
+    #saludo h1 {
+        font-size: 30px;
+    }
+
+    #saludo p {
+        font-size: 25px;
+    }
+
     .contenedor-presentacion-fotos {
         flex-direction: row;
     }
 
     .fotografia-personal {
-        max-width: 50%;
+        padding-left: 18%;
+        padding-right: 18%;
+        margin-bottom: 50px; 
     }
 
-    section {
-        padding: 60px 40px;
+    /* Cita */
     }
-}
+    blockquote p {
+        font-size: 30px;
+    }
 
-/* Estilos responsive tablet */
+    /* Habilidades */
+    .ul-habilidades {
+        padding-left: 18%;
+        padding-right: 18%;
+
+    }
+
+    .ul-habilidades h3 {
+        font-size: 25px;
+    }
+
+    .ul-habilidades img {
+        width: 50px;;
+    }
+
+    /* Proyectos */
+    .grilla-proyectos {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Contacto */
+    .redes-sociales a {
+        font-size: 25px;
+    }
+
+    form {
+        font-size: 25px
+    }
+
+    /* Footer */
+    footer {
+        font-size: 25px;
+    }
+    footer li:hover {
+        text-decoration: underline;
+    }
+
+
+/* Estilos responsive escritorio */
 @media (min-width: 1024px) {
 
-    /* Header tablet */
     .nav-header {
         padding: 15px 20px;
     }
