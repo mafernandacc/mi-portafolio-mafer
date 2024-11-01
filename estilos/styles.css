@@ -6,16 +6,12 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #eef6eb94; 
-}
-
-p {
-    font-family: "Cutive", serif;
-    font-weight: 400;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
 }
+
 
 /* Header */
 header {
@@ -67,22 +63,43 @@ h1 {
     font-size: 20px;
 }
 
+#presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
 .contenedor-presentacion-fotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+}
+
+.fotografia-personal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: 10px;
 }
 
 .foto-presentacion {
         width: 250px; 
         height: auto;
         transform: rotate(8deg); 
+        align-self: center;
+        margin-left: 35px;
 }
 .foto-presentacion-2 {
     width: 250px; 
     height: auto;
     transform: rotate(-8deg); 
     margin-bottom: 15px;
+    align-self: center;
+    margin-left: 20px;
 
 }
 
@@ -108,6 +125,8 @@ h2 {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .ul-habilidades div {
@@ -129,10 +148,11 @@ h2 {
     border-radius: 32px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 0px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.06) 0px 4px 2px 0px inset, rgba(0, 0, 0, 0.04) 0px 0px 24px 4px inset, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
     opacity: 1;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-right: 5px;
     margin-bottom: 30px;
     flex-wrap: wrap;
+   
 }
 
 .imagen-habilidades {
@@ -150,7 +170,7 @@ h2 {
 #proyectos {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap;;
 }
 
 .card {
@@ -158,6 +178,7 @@ h2 {
     width: 250px;
     height: 350px;
     margin-bottom: 30px;
+    margin-left: 45px;
 }
 
 .card .card-frente {
