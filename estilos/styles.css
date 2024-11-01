@@ -369,7 +369,7 @@ footer a {
 
 /* Estilos responsivos */
 
-/* Tablet */
+/* Estilos responsive Tablet */
 @media (min-width: 768px) {    
 
     p{
@@ -533,9 +533,3 @@ footer a {
     }
 }
 
-
-@media (min-width: 1440px) {
-    .grilla-proyectos {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
