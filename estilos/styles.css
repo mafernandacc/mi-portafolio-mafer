@@ -114,7 +114,7 @@ h2 {
 
 .card {
     position: relative;
-    width: 100%;
+    width: 250px;
     height: 350px;
     margin-bottom: 30px;
 }
@@ -278,7 +278,7 @@ input, textarea {
 
 /* Estilo de footer */
 footer {
-    background: #4caf4f5a;
+    background: #2c7e2e91;
     text-align: center;
     padding: 15px 20px;
 }
