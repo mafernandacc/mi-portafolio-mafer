@@ -436,7 +436,7 @@ footer a {
     }
 
     /* Cita */
-    }
+    
     blockquote p {
         font-size: 30px;
     }
@@ -483,7 +483,10 @@ footer a {
 
 /* Estilos responsive escritorio */
 @media (min-width: 1024px) {
-
+    section {
+        padding: 80px 60px;
+    }
+    /* Header */
     .nav-header {
         padding: 15px 20px;
     }
@@ -504,12 +507,29 @@ footer a {
         text-decoration: underline;
     }
     
-    .grilla-proyectos {
-        grid-template-columns: repeat(3, 1fr);
+    /* Habilidades */
+    .ul-habilidades {
+        margin: 50px 0;
+        padding-left: 13%;
+        padding-right: 13%;
+        }
+
+      /* Proyectos */
+      .grilla-proyectos {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    /* Footer */
+    .nav-contenido {
+        display: flex;
+        flex-direction: row;
+      padding-left: 23%;
+      padding-right: 23%;
     }
 
-    section {
-        padding: 80px 60px;
+    .nav-contenido li {
+        margin: 30px;
     }
 }
 
