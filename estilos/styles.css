@@ -11,6 +11,12 @@ body {
     background-color: #eef6eb94; 
 }
 
+p {
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Header */
 header {
     width: 0;
@@ -55,7 +61,7 @@ section {
 }
 
 h1 {
-    color: #0c7410; 
+    color: #2c7e2e; 
     margin-bottom: 20px;
     word-spacing: 1px;
     font-size: 20px;
@@ -67,26 +73,23 @@ h1 {
     justify-content: space-between;
 }
 
-.fotografia-personal {
-    flex: 1;
-    max-width: 300px;
-}
-
 .foto-presentacion {
-    width: 100%;
-    border-radius: 8px;
+        width: 250px; 
+        height: auto;
+        transform: rotate(8deg); 
 }
-
 .foto-presentacion-2 {
-    width: 100%;
-    border-radius: 8px;
-    margin-top: 10px;
+    width: 250px; 
+    height: auto;
+    transform: rotate(-8deg); 
+    margin-bottom: 15px;
+
 }
 
 /* Estilo citas */
 
 blockquote {
-    color: grey;
+    color:#2c7e2e91;
     font-family: "Inter Tight", sans-serif;
     font-weight: <weight>;
     font-style: normal;
@@ -101,16 +104,54 @@ h2 {
 }
 
 .ul-habilidades {
+    margin-top: 20px;
     list-style-type: none;
-    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.ul-habilidades div {
+    background-color: #faf9f9;
+    height: 130px;
+    width: 130px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e2e0e0be;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    border-color: var(--token-1795d1d7-4691-42f6-b067-6d46fce27998, rgba(0, 0, 0, 0.1));
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-top-width: 1px;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 0px 0px inset, rgb(255, 255, 255) 0px 0px 0px 2px inset, rgba(0, 0, 0, 0.06) 0px 4px 2px 0px inset, rgba(0, 0, 0, 0.04) 0px 0px 24px 4px inset, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    opacity: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.imagen-habilidades {
+    width: 40px;
+    height: auto;
+    margin-top: 25px;
+}
 .ul-habilidades li:hover {
     font-size: 17px;
 }
 
 
 /* Grilla de proyectos */
+
+#proyectos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .card {
     position: relative;
@@ -179,12 +220,13 @@ h2 {
 .card .card-detras h3 {
 font-size: 24px;
 text-align: center;
+margin-top: 10px;
 
 }
 
 .card .card-detras p {
     padding: 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: gray;
     text-align: center;
 }
@@ -219,13 +261,6 @@ text-align: center;
     padding-left: 15px;
 }
 
-.card .card-detras .ir-a-proyecto img {
-    width: auto;
-    height: 80%;
-    padding-right: 15px;
-    opacity: 80%;
-}
-
 .card:hover .card-frente {
     transform: perspective(600px) rotateY(180deg);
 }
@@ -251,12 +286,15 @@ text-align: center;
 /* Contacto redes */
 .redes-sociales {
     list-style: none;
-
 }
 
 .redes-sociales a {
     text-decoration: none;
     color: #0e0e0f;
+}
+
+.redes-sociales li {
+    margin: 15px 5px;
 }
 
 /* Formulario */
@@ -278,7 +316,7 @@ input, textarea {
 
 /* Estilo de footer */
 footer {
-    background: #2c7e2e91;
+    background: #2c7e2d92;
     text-align: center;
     padding: 15px 20px;
 }
@@ -332,7 +370,6 @@ footer a {
 
     /* Header tablet */
     .nav-header {
-        background: #4CAF50; /* Verde oscuro */
         padding: 15px 20px;
     }
     
